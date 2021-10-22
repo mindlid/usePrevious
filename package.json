@@ -1,0 +1,42 @@
+{
+  "name": "@saulpalv/useprevious",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A hook for getting a variable previous state",
+  "main": "lib/usePrevious.js",
+  "types": "lib/usePrevious.d.ts",
+  "scripts": {
+    "publish": "npm publish --access=public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build ",
+    "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulpalv/usePrevious.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "previous",
+    "variable"
+  ],
+  "author": "saulpalv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulpalv/usePrevious/issues"
+  },
+  "homepage": "https://github.com/saulpalv/usePrevious#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
